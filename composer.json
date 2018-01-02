@@ -3,7 +3,8 @@
     "description": "Tigron Skeleton aggregator",
     "type": "library",
     "require": {
-    	"tigron/skeleton-migrate": "0.1.*"	
+    	"tigron/skeleton-migrate": "0.1.*",
+		"tigron/skeleton-object": "0.1.*"
     },
     "license": "MIT",
     "authors": [
