@@ -6,6 +6,8 @@
  */
 namespace Skeleton\Aggregator;
 
+use \Skeleton\Database\Database;
+
 class Migration_20180102_163727_Init extends \Skeleton\Database\Migration {
 
 	/**
@@ -26,6 +28,8 @@ class Migration_20180102_163727_Init extends \Skeleton\Database\Migration {
 				`updated` datetime NULL
 			);
 		", []);
+
+		$db->query("ALTER TABLE `aggregator` ADD INDEX `identifier` (`identifier`);", []);
 	}
 
 	/**
