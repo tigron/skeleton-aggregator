@@ -1,0 +1,23 @@
+{
+    "name": "tigron/skeleton-aggregator",
+    "description": "Tigron Skeleton aggregator",
+    "type": "library",
+    "require": {
+    	"tigron/skeleton-migrate": "0.1.*"	
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Tigron BVBA",
+            "email": "support@tigron.be"
+        }
+    ],
+    "support": {
+        "source": "https://github.com/tigron/skeleton-aggregator",
+        "issues": "https://github.com/tigron/skeleton-aggregator/issues"
+    },
+    "autoload": {
+        "psr-4": { "Skeleton\\Aggregator\\": "lib/Skeleton/Aggregator/" }
+    }
+
+}
